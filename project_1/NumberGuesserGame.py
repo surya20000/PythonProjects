@@ -5,7 +5,7 @@ def main():
     user_entered_range = list(map(int,input().split()))
     [lower_range, higher_range] = user_entered_range
     computer_generated_integer = random.randint(lower_range, higher_range)
-    print("I have guessed an Integer now you have to guess that number between that range only. Remember You have Three Chances Only", computer_generated_integer)
+    print("I have guessed an Integer now you have to guess that number between that range only. Remember You have Three Chances Only")
     for i in range(3):
         user_guessed_number = int(input(f"Attempt {i + 1}: Enter your guess: "))
         
